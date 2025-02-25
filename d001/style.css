@@ -28,6 +28,28 @@ main {
     
 }
 
+/* Media Query para telas pequenas (celulares) */
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Alinha os itens na vertical em telas menores */
+      align-items: center; /* Centraliza os itens na horizontal */
+    }
+  
+    img {
+      width: 80%; /* A imagem ocupa 80% da largura da tela */
+      height: auto;
+    }
+  
+    .texto {
+      align-items: center; /* Centraliza o texto */
+      text-align: center; /* Centraliza o texto */
+    }
+  
+    .texto p {
+      width: 100%; /* Garante que o texto ocupe a largura disponível */
+    }
+  }
+
 #logo {
     border-radius: 10px 10px 0px 0px;
 }
