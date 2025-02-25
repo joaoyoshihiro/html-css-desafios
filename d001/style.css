@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+body {
+    background: hsl(225, 100%, 94%) url(images/pattern-background-desktop.svg) center no-repeat fixed;
+    
+   
+    margin: 0px;
+    font-family: 'Red Hat Display';
+    
+    
+}
+
+main {
+    margin: auto;
+    background-color: white;
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.205);
+    border-radius: 10px;
+    height: 85vh;
+    
+    
+    
+    
+}
+
+#logo {
+    border-radius: 10px 10px 0px 0px;
+}
+
+h1 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+#foda {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: hsl(224, 23%, 55%);
+}
+
+div.container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important; /* Força alinhamento à esquerda */
+    text-align: left !important; /* Força alinhamento do texto */
+    width: 100%; /* Garante que a div ocupa o espaço disponível */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.texto > h2 {
+    padding: 0px;
+   margin: 0px;
+    size: 16px;
+    color: hsl(223, 47%, 23%);
+    align-items: flex-start !important; /* Força alinhamento à esquerda */
+    text-align: left !important; /* Força alinhamento do texto */
+    width: 100%; /* Garante que a div ocupa o espaço disponível */
+    font-size: 16px;
+    font-weight: 900;
+
+
+}
+
+.texto > p {
+   margin: 0;
+   padding: 0;
+    size: 16px;
+    color: hsl(224, 23%, 55%);
+    align-items: flex-start !important; 
+    text-align: left !important; 
+    width: 100%; 
+    font-size: 16px;
+    
+}
+
+
+
+#musica {
+    margin-left: 15%;
+    height: auto;
+}
+
+#link {
+    margin: 0px;
+    width: 100%;
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+
+#link:hover, #link:active {
+    color: hsl(224, 23%, 55%) ;
+}
+
+
+#pagar {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 100px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.445);
+    margin: 20px;
+    
+    
+
+}
+
+#pagar:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+
+#pagar:active{
+    background-color: hsl(224, 23%, 55%);
+
+}
+
+.pagar {
+    margin: 20px;
+    font-weight: 900;
+}
+.cancelar {
+    margin: 20px;
+    padding: 30px;
+}
+
+#cancelar {
+    text-decoration: none;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+}
+
+
+#cancelar:hover,#cancelar:active {
+    color: hsl(223, 47%, 23%) ;
+}
